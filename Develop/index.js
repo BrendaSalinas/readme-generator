@@ -46,6 +46,12 @@ const questions = [
         message: "Provide name of second screenshot (PNG file) of application: "
     },
     {
+        type: "checkbox",
+        name: "languages",
+        message: "What did you build this project with? ",
+        choices: ['javascript', ' inquirer', ' HTML', ' ES6', ' jQuery', ' Bootstrap', ' Node']
+    },
+    {
         type: "list",
         name: "license",
         message: "Select the license that you would like to use: ",

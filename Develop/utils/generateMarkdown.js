@@ -65,8 +65,8 @@ function generateMarkdown(data) {
   * [Description](#description)
   * [Installation](#Installation)
   * [Usage](#Usage)
+  * [Languages](#Languages)
   * [License](#License)
-  * [Contributions](#Contributions)
   * [Questions](#Questions)
   
   ## Description
@@ -86,15 +86,15 @@ function generateMarkdown(data) {
   ![first](assets/images/${data.screenshot1}.png)
   ![second](assets/images/${data.screenshot2}.png)
 
+  ## Languages
+  Built with : ${data.languages}
+
   ## License
   ![MIT]${renderLicenseBadge(data.license)}
 
   [License link]${renderLicenseLink(data.license)}
 
   ${renderLicenseSection(data.license)}
-
-  ## Contributions
-
 
   ## Questions
   Contributors: https://github.com/${data.github}
