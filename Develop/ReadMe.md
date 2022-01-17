@@ -1,4 +1,4 @@
-# ReadMe generator
+# README Generator
 
   ## Table of Contents 
   * [Description](#description)
@@ -9,16 +9,16 @@
   * [Questions](#Questions)
   
   ## Description
-  jre
+  rre
 
   ## Installation
-  1. re
-  2. er
-  3. er
+  1. we
+  2. we
+  3. ew
 
   ## Usage
   ## As a developer
-  r
+  ehhew
 
   ## Screenshots (Use this application)
 
@@ -26,30 +26,17 @@
   ![second](assets/images/screenshot2.png)
 
   ## License
-  ![MIT](https://img.shields.io/npm/l/inquirer)
+  ![MIT](https://img.shields.io/badge/license-GNU%203.0-green)
 
-  ####[MIT license link](https://choosealicense.com/licenses/mit/)
+  [License link](https://choosealicense.com/licenses/gpl-3.0/)
 
-  
-    Copyright (c) 2022 Brenda Salinas
-    
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
-    
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
-    
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SOFTWARE.
+                      
+    GNU GENERAL PUBLIC LICENSE
+    Version 3, 29 June 2007
+
+    Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+    Everyone is permitted to copy and distribute verbatim copies
+    of this license document, but changing it is not allowed.
 
   ## Contributions
 

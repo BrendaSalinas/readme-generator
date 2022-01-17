@@ -8,17 +8,17 @@ const questions = [
     {
         type: "input",
         name: 'title',
-        message: "What is your project's name?"
+        message: "What is your project's name? "
     },
     {
         type: "input",
         name: "description",
-        message: "What is the description of your project?"
+        message: "What is the description of your project? "
     },
     {
         type: "input",
         name: "installOne",
-        message: "What are the steps required to install your project (1/3)?"
+        message: "What are the steps required to install your project? (1/3)"
     },
     {
         type: "input",
@@ -33,17 +33,17 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "Provide instructions and examples of use"
+        message: "Provide instructions and examples of use: "
     },
     {
         type: "input",
         name: "screenshot1",
-        message: "Provide name first screenshot (PNG) of used application"
+        message: "Provide name of first screenshot (PNG file) of application: "
     },
     {
         type: "input",
         name: "screenshot2",
-        message: "Provide name of second screenshot (PNG) of used application"
+        message: "Provide name of second screenshot (PNG file) of application: "
     },
     {
         type: "list",

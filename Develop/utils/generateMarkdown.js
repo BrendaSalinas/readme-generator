@@ -3,6 +3,8 @@
 function renderLicenseBadge(license) {
   if (license == 'MIT') {
     return `(https://img.shields.io/npm/l/inquirer)`;
+  } else if (license == 'GNU 3.0') {
+    return `(https://img.shields.io/badge/license-GNU%203.0-green)`
   }
   return "";
 }
@@ -11,7 +13,9 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license == 'MIT') {
-    return `(https://choosealicense.com/licenses/mit/)`
+    return `(https://choosealicense.com/licenses/mit/)`;
+  } else if (license == 'GNU 3.0') {
+    return `(https://choosealicense.com/licenses/gpl-3.0/)`;
   }
   return "";
 }
@@ -21,6 +25,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license == 'MIT') {
     return `
+    MIT license 
     Copyright (c) 2022 Brenda Salinas
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -40,6 +45,14 @@ function renderLicenseSection(license) {
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.`;
+  } else if (license == 'GNU 3.0') {
+    return `                    
+    GNU GENERAL PUBLIC LICENSE
+    Version 3, 29 June 2007
+
+    Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+    Everyone is permitted to copy and distribute verbatim copies
+    of this license document, but changing it is not allowed.`;
   }
   return "";
 }
@@ -65,7 +78,7 @@ function generateMarkdown(data) {
   3. ${data.installThree}
 
   ## Usage
-  ## As a developer
+  ### As a developer
   ${data.usage}
 
   ## Screenshots (Use this application)
@@ -76,7 +89,7 @@ function generateMarkdown(data) {
   ## License
   ![MIT]${renderLicenseBadge(data.license)}
 
-  ####[MIT license link]${renderLicenseLink(data.license)}
+  [License link]${renderLicenseLink(data.license)}
 
   ${renderLicenseSection(data.license)}
 
