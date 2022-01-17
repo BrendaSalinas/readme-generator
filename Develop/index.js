@@ -62,7 +62,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "e-mail",
+        name: "email",
         message: "Enter your e-mail in case the user has any questions: "
     }
 ];
@@ -76,6 +76,6 @@ inquirer.prompt(questions).then(function(data) {
     fs.writeFile('ReadMe.md', content, function(err){
         if (err) throw err
         console.log('This is a success')
-    })
-})
+    });
+});
 

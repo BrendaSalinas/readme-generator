@@ -6,20 +6,19 @@
   * [Usage](#Usage)
   * [License](#License)
   * [Contributions](#Contributions)
-  * [Tests](#tests)
   * [Questions](#Questions)
   
   ## Description
-  Project allows developers to generate a professional readme file
+  This project allows developers to generate a professional read me generator
 
   ## Installation
-  1. 1
-  2. 2
-  3. 3
+  1. clone the repository into your local computer, make sure you have node js and inquirer package installed
+  2. make sure to have a gitignore file to ignore node_modules
+  3. to start the project type in the terminal "node index"
 
   ## Usage
   ## As a developer
-  this is how it is supposed to be used
+  ffe
 
   ## Screenshots (Use this application)
 
@@ -27,7 +26,33 @@
   ![second](assets/images/screenshot2.png)
 
   ## License
-  MIT
+  MIT License
 
-  ## Credits
-  Github: github.com/BrendaSalinas
+    Copyright (c) 2022 Brenda Salinas
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+  ## Contributions
+
+
+  ## Questions
+  Contributors: github.com/BrendaSalinas
+
+  If you have any questions please reach out to the following e-mail: brenda.salinas2128@gmail.com
+
