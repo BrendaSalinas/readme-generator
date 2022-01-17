@@ -1,4 +1,4 @@
-# README Generator
+# README generator
 
   ## Table of Contents 
   * [Description](#description)
@@ -9,16 +9,16 @@
   * [Questions](#Questions)
   
   ## Description
-  This project allows developers to generate a professional read me generator
+  this project allows developers to generate a profesional readme generator to present their projects to clients.
 
   ## Installation
-  1. clone the repository into your local computer, make sure you have node js and inquirer package installed
-  2. make sure to have a gitignore file to ignore node_modules
-  3. to start the project type in the terminal "node index"
+  1. 1
+  2. 2
+  3. 3
 
   ## Usage
   ## As a developer
-  ffe
+  uhreiure
 
   ## Screenshots (Use this application)
 
@@ -26,8 +26,10 @@
   ![second](assets/images/screenshot2.png)
 
   ## License
-  MIT License
+  ![MIT](https://img.shields.io/npm/l/inquirer)
+  ![License website](https://choosealicense.com/licenses/mit/)
 
+  
     Copyright (c) 2022 Brenda Salinas
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -52,7 +54,7 @@
 
 
   ## Questions
-  Contributors: github.com/BrendaSalinas
+  Contributors: https://github.com/BrendaSalinas
 
   If you have any questions please reach out to the following e-mail: brenda.salinas2128@gmail.com
 
