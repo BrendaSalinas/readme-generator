@@ -25,6 +25,25 @@ function generateMarkdown(data) {
   
   ## Description
   ${data.description}
+
+  ## Installation
+  1. ${data.installOne}
+  2. ${data.installTwo}
+  3. ${data.installThree}
+
+  ## Usage
+  ## As a developer
+  ${data.usage}
+
+  ## Screenshots (Use this application)
+
+  ![first](assets/images/screenshot1.png)
+
+  ## License
+  ${data.license}
+
+  ## Credits
+  Github: github.com/${data.credits}
 `;
 }
 

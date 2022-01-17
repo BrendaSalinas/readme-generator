@@ -17,28 +17,38 @@ const questions = [
     },
     {
         type: "input",
-        name: "table of Contents",
-        message: "Provide table of contents"
+        name: "installOne",
+        message: "What are the steps required to install your project (1/3)?"
     },
     {
         type: "input",
-        name: "installation",
-        message: "What are the steps required to install your project?"
+        name: "installTwo",
+        message: "What are the steps required to install your project? (2/3)"
+    },
+    {
+        type: "input",
+        name: "installThree",
+        message: "What are the steps required to install your project? (3/3)"
     },
     {
         type: "input",
         name: "usage",
-        message: "Provide instructions and examples of use"
+        message: "Provide instructions and examples of use (include screenshots)"
     },
     {
-        type: "input",
+        type: "list",
         name: "license",
-        message: "Provide a license"
+        message: "Select the license that you would like to use: ",
+        choices: [
+            "MIT",
+            "GNU 3.0",
+            "None"
+        ]
     },
     {
         type: "input",
-        name: "contributing",
-        message: "What other developers contributed to the project?"
+        name: "credits",
+        message: "What developers contributed to the project (Provide github username)?"
     },
     {
         type: "input",
@@ -47,12 +57,12 @@ const questions = [
     },
     {
         type: "input",
-        name: "Questions",
+        name: "questions",
         message: "What questions do you have?"
     },
     {
         type: "input",
-        name: "E-mail",
+        name: "e-mail",
         message: "Enter your e-mail: "
     },
     {
