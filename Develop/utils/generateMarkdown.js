@@ -1,6 +1,10 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  // if (!license === 'MIT') {
+  //   return "this worked"
+  // }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -20,7 +24,6 @@ function generateMarkdown(data) {
   * [Usage](#Usage)
   * [License](#License)
   * [Contributions](#Contributions)
-  * [Tests](#tests)
   * [Questions](#Questions)
   
   ## Description
@@ -41,10 +44,16 @@ function generateMarkdown(data) {
   ![second](assets/images/${data.screenshot2}.png)
 
   ## License
-  ${data.license}
+  ${data.license1}
 
-  ## Credits
-  Github: github.com/${data.credits}
+  ## Contributions
+
+
+  ## Questions
+  Contributors: github.com/${data.github}
+
+  If you have any questions please reach out to the following e-mail: ${data.email}
+
 `;
 }
 

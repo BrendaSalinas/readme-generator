@@ -57,29 +57,14 @@ const questions = [
     },
     {
         type: "input",
-        name: "credits",
-        message: "What developers contributed to the project (Provide github username)?"
-    },
-    {
-        type: "input",
-        name: "test",
-        message: "What test can you do?"
-    },
-    {
-        type: "input",
-        name: "questions",
-        message: "What questions do you have?"
+        name: "github",
+        message: "What developer contributed to the project (Provide github username)?"
     },
     {
         type: "input",
         name: "e-mail",
-        message: "Enter your e-mail: "
-    },
-    {
-        type: "input",
-        name: "Github",
-        message: "Enter your github username: "
-    }   
+        message: "Enter your e-mail in case the user has any questions: "
+    }
 ];
 
 // // TODO: Create a function to write README file

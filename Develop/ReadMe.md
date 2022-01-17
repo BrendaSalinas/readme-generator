@@ -30,4 +30,4 @@
   MIT
 
   ## Credits
-  Github: github.com/
+  Github: github.com/BrendaSalinas
