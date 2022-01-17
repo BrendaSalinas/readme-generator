@@ -1,4 +1,4 @@
-# README generator
+# ReadMe generator
 
   ## Table of Contents 
   * [Description](#description)
@@ -9,16 +9,16 @@
   * [Questions](#Questions)
   
   ## Description
-  this project allows developers to generate a profesional readme generator to present their projects to clients.
+  jre
 
   ## Installation
-  1. 1
-  2. 2
-  3. 3
+  1. re
+  2. er
+  3. er
 
   ## Usage
   ## As a developer
-  uhreiure
+  r
 
   ## Screenshots (Use this application)
 
@@ -27,7 +27,8 @@
 
   ## License
   ![MIT](https://img.shields.io/npm/l/inquirer)
-  ![License website](https://choosealicense.com/licenses/mit/)
+
+  ####[MIT license link](https://choosealicense.com/licenses/mit/)
 
   
     Copyright (c) 2022 Brenda Salinas

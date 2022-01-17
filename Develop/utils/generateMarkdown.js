@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license == 'MIT') {
-    return `https://choosealicense.com/licenses/mit/`
+    return `(https://choosealicense.com/licenses/mit/)`
   }
   return "";
 }
@@ -75,7 +75,8 @@ function generateMarkdown(data) {
 
   ## License
   ![MIT]${renderLicenseBadge(data.license)}
-  ![License website](${renderLicenseLink(data.license)})
+
+  ####[MIT license link]${renderLicenseLink(data.license)}
 
   ${renderLicenseSection(data.license)}
 
