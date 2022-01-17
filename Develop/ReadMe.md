@@ -1,4 +1,13 @@
-# Run Buddy Inc
+# Run buddy Inc
 
+  ##Table of Contents 
+  *[Description](#description)
+  *[Installation](#Installation)
+  *[Usage](#Usage)
+  *[License](#License)
+  *[Contributions](#Contributions)
+  *[Tests](#tests)
+  *[Questions](#Questions)
+  
   ## Description
-  This project is a website for a running company, it uses vanilla HTML and CSS
+  this project is the coolest 
