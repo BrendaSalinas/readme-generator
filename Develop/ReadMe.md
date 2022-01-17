@@ -1,13 +1,13 @@
-# Run buddy Inc
+# Run buddy
 
-  ##Table of Contents 
-  *[Description](#description)
-  *[Installation](#Installation)
-  *[Usage](#Usage)
-  *[License](#License)
-  *[Contributions](#Contributions)
-  *[Tests](#tests)
-  *[Questions](#Questions)
+  ## Table of Contents 
+  * [Description](#description)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [License](#License)
+  * [Contributions](#Contributions)
+  * [Tests](#tests)
+  * [Questions](#Questions)
   
   ## Description
-  this project is the coolest 
+  just another cool project 
