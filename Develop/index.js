@@ -33,7 +33,17 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "Provide instructions and examples of use (include screenshots)"
+        message: "Provide instructions and examples of use"
+    },
+    {
+        type: "input",
+        name: "screenshot1",
+        message: "Provide name first screenshot (PNG) of used application"
+    },
+    {
+        type: "input",
+        name: "screenshot2",
+        message: "Provide name of second screenshot (PNG) of used application"
     },
     {
         type: "list",

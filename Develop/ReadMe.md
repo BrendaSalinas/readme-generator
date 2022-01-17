@@ -10,7 +10,7 @@
   * [Questions](#Questions)
   
   ## Description
-  this project is the coolest project and allows developers to create a professional readme file 
+  Project allows developers to generate a professional readme file
 
   ## Installation
   1. 1
@@ -19,11 +19,12 @@
 
   ## Usage
   ## As a developer
-  
+  this is how it is supposed to be used
 
   ## Screenshots (Use this application)
 
   ![first](assets/images/screenshot1.png)
+  ![second](assets/images/screenshot2.png)
 
   ## License
   MIT

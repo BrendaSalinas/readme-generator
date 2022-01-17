@@ -37,7 +37,8 @@ function generateMarkdown(data) {
 
   ## Screenshots (Use this application)
 
-  ![first](assets/images/screenshot1.png)
+  ![first](assets/images/${data.screenshot1}.png)
+  ![second](assets/images/${data.screenshot2}.png)
 
   ## License
   ${data.license}
