@@ -4,7 +4,6 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
-//title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 const questions = [
     {
         type: "input",
@@ -13,37 +12,37 @@ const questions = [
     },
     {
         type: "input",
-        name: "Description",
+        name: "description",
         message: "What is the description of your project?"
     },
     {
         type: "input",
-        name: "Table of Contents",
+        name: "table of Contents",
         message: "Provide table of contents"
     },
     {
         type: "input",
-        name: "Installation",
+        name: "installation",
         message: "What are the steps required to install your project?"
     },
     {
         type: "input",
-        name: "Usage",
+        name: "usage",
         message: "Provide instructions and examples of use"
     },
     {
         type: "input",
-        name: "License",
+        name: "license",
         message: "Provide a license"
     },
     {
         type: "input",
-        name: "Contributing",
+        name: "contributing",
         message: "What other developers contributed to the project?"
     },
     {
         type: "input",
-        name: "Test",
+        name: "test",
         message: "What test can you do?"
     },
     {
@@ -75,12 +74,3 @@ inquirer.prompt(questions).then(function(data) {
     })
 })
 
-// // TODO: Create a function to initialize app
-// function init() {
-//     prompt(questions).then(ans => {
-//         writeToFile("README", ans)
-//     })
-// }
-
-// // Function call to initialize app
-// init();
