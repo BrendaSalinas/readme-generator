@@ -1,4 +1,4 @@
-# README generator
+# README Generator
 
   ## Table of Contents 
   * [Description](#description)
@@ -58,5 +58,5 @@
   ## Questions
   Contributors: https://github.com/BrendaSalinas
 
-  If you have any questions please reach out to the following e-mail: brenda.salinas2128@gmail.com
+  If you have any questions please reach out to the following e-mail:brenda.salinas2128@gmail.com
 

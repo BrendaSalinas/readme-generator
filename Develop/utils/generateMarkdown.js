@@ -99,7 +99,7 @@ function generateMarkdown(data) {
   ## Questions
   Contributors: https://github.com/${data.github}
 
-  If you have any questions please reach out to the following e-mail: ${data.email}
+  If you have any questions please reach out to the following e-mail:${data.email}
 
 `;
 }
